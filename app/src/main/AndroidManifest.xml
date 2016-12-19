@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Act_Beranda"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -17,6 +17,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnBoarding"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Act_Masuk"
+            android:label="Masuk"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Act_Beranda">
+        </activity>
+        <activity
+            android:name=".Act_Daftar"
+            android:label="Daftar"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Act_Beranda">
         </activity>
     </application>
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="15dp">
+        <EditText
+            android:id="@+id/ETEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/ETSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kata Sandi"/>
+        <Button
+            android:id="@+id/BMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2862ff"
+            android:text="MASUK"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/TVDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Belum punya akun? Daftar" />
+        <TextView
+            android:id="@+id/TVLupaSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Lupa kata sandi"/>
+    </LinearLayout>
+
+</LinearLayout>
